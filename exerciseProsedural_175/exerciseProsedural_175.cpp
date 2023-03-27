@@ -26,7 +26,7 @@ int main() {
         cin >> nilai_mat[i];
         cout << "Masukkan nilai Bahasa Inggris: ";
         cin >> nilai_ing[i];
-        cin.ignore(); // untuk membersihkan newline character di buffer input
+        cin.ignore(); 
         double rata_rata = hitungRataRata(nilai_mat[i], nilai_ing[i]);
         if (rata_rata >= 70 || nilai_mat[i] >= 80) {
             tampilkanStatus(nama[i], true);
