@@ -3,7 +3,7 @@
 using namespace std;
 
 double hitungRataRata(int a, int b) {
-    return (a + b) / 2.0;
+    return (a + b) / 2;
 }
 
 void tampilkanStatus(string nama, bool diterima) {
@@ -19,7 +19,7 @@ int main() {
     string nama[20];
     int nilai_mat[20], nilai_ing[20], diterima = 0, tidak_diterima = 0;
 
-    for (int i = 0; i < 20; i++) {
+    for (int i = 0; i < 2; i++) {
         cout << "Masukkan nama kandidat ke-" << i + 1 << ": ";
         getline(cin, nama[i]);
         cout << "Masukkan nilai Matematika: ";
